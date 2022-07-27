@@ -1,6 +1,6 @@
 {
-  "homepage": "http://ronvic12.github.io/ronvicWebsite.github.io",
-  "name": "mywebsite",
+  "homepage": "https://ronvic12.github.io/ronvicwebsite",
+  "name": "ronvicwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
