@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ronvicwebsite/static/css/main.737c5493.css",
+    "main.js": "/ronvicwebsite/static/js/main.496a4460.js",
+    "static/js/787.08719aad.chunk.js": "/ronvicwebsite/static/js/787.08719aad.chunk.js",
+    "static/media/dcash.jpg": "/ronvicwebsite/static/media/dcash.34c66f45b6f1f5ea203e.jpg",
+    "static/media/pikmini.png": "/ronvicwebsite/static/media/pikmini.35307d68b8d17eea2081.png",
+    "static/media/exposure.jpg": "/ronvicwebsite/static/media/exposure.75594c5d35bf092a38e0.jpg",
+    "static/media/ronvic.png": "/ronvicwebsite/static/media/ronvic.b66463e553e69d8f6598.png",
+    "static/media/aegis.png": "/ronvicwebsite/static/media/aegis.b20df1edbae6ede9ea6b.png",
+    "static/media/app_icon.png": "/ronvicwebsite/static/media/app_icon.9632d4feb505dfb775c1.png",
+    "static/media/connect.png": "/ronvicwebsite/static/media/connect.bbcae6f9fd6a0a962c16.png",
+    "static/media/software engineer resume 2022 (Early Career) - Google Docs.pdf": "/ronvicwebsite/static/media/software engineer resume 2022 (Early Career) - Google Docs.2b9eee6525e27bbefe5a.pdf",
+    "static/media/kq.png": "/ronvicwebsite/static/media/kq.b0e435c10cefe593dedd.png",
+    "static/media/helvetica-neu.ttf": "/ronvicwebsite/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/mtsthelen.jpg": "/ronvicwebsite/static/media/mtsthelen.ec7e1bf1c18ed2195c0a.jpg",
+    "static/media/LaBelleAurore.woff2": "/ronvicwebsite/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/ronvicwebsite/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/ronvicwebsite/index.html",
+    "main.737c5493.css.map": "/ronvicwebsite/static/css/main.737c5493.css.map",
+    "main.496a4460.js.map": "/ronvicwebsite/static/js/main.496a4460.js.map",
+    "787.08719aad.chunk.js.map": "/ronvicwebsite/static/js/787.08719aad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.737c5493.css",
+    "static/js/main.496a4460.js"
+  ]
+}
