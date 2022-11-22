@@ -10,7 +10,31 @@ const Experience = () => {
   <div className = "experience-container">
   <h1>Work Experience</h1>
   <VerticalTimeline>
-  
+  <VerticalTimelineElement 
+    className = "vertical-timeline-element--work"
+    date ="August 2022 - Present"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+    icon = {<WorkIcon/>}
+    >
+    <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Four Wheel Campers</h4>
+    <p>
+
+    <li>
+    Maintaining and developing two web application system(ERP and Four Wheel Drive) to help and create an efficient system for every department of the company(i.e. Sales(U.S.A,Germany,Canada and Taiwan),Services,Production,Accounting,Engineering,CNC Operators,etc.): Four wheel Drive is specifically made for Sales Department and Services while ERP is made for Production, Accounting,Engineering,Services and CNC Operators.
+    </li> 
+    <li>
+    Collaborating with other engineers (i.e. mechanical) to put their new implemented CNC Drawings or fixes into the web application system.
+    </li>   
+    <li>
+    Developing ERP and Four Wheel Drive web application via JavaScript, HTML,CSS for the
+Front-End development and NodeJS for backend. Uses MYSQL as the main source of database for support to make a report. Microsoft VBA and Excel(xlsx-populate to populate data into excel from javascript) for populating the data to support the Production department. </li>  
+    
+    </p>
+    </VerticalTimelineElement>
+
     <VerticalTimelineElement 
     className = "vertical-timeline-element--work"
     date ="January 2022 - March 2022"

@@ -13,8 +13,8 @@ const Skills = () => {
     <h1 id ="title">MY SOFTWARE SKILLS</h1>
     <div className ="my_description">
       <p>
-        I recently graduated this past June 2022 with a B.S. Computer Science Degree from the University of California Davis.
-        Regards to my software skillset, I am really proficient in Python and C++. I also have prior experience with Web and Mobile development.
+        I am currently working as a Software Engineer at Four Wheel Campers where I develop and maintain two web application systems (ERP and Four Wheel Drive) to help and create an efficient system for every department of the company. Regards to my educational background, I graduated this past June 2022 with a B.S. Computer Science Degree from the University of California Davis.
+        Regards to my software skillset, I am currently proficient with Javascript language, since this is where I am using with my current employment, but still proficient in Python and C++. I am currently being more proficient developing web applications, but still have prior experience with Mobile development.
          </p>
       <p> Checkout my projects in  <NavLink to ="/portfolio">Portfolio</NavLink> section. Also visit me in <a href = "https://www.linkedin.com/in/ronvic-cuevas/">LinkedIn</a> hoping we can connect and chat.
     </p>
