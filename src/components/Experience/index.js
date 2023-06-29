@@ -23,6 +23,7 @@ const Experience = () => {
     </li>   
     <li>
     Created database schemas and wrote efficient retrieval queries in MYSQL for various large scalable business requirements.    
+    </li>
     </p>
     </VerticalTimelineElement>
 
