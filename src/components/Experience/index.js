@@ -10,7 +10,7 @@ const Experience = () => {
   <div className = "experience-container">
   <h1>Work Experience</h1>
   <VerticalTimeline>
-  <VerticalTimelineElement className = "vertical-timeline-element--work" date ="August 2022 - Present" contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }} iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }} icon = {<WorkIcon/>}>
+  <VerticalTimelineElement className = "vertical-timeline-element--work" date ="August 2022 - July 2023" contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }} iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }} icon = {<WorkIcon/>}>
     <h3 className="vertical-timeline-element-title">Software Engineer</h3>
     <h4 className="vertical-timeline-element-subtitle">Four Wheel Campers</h4>
     <p>
