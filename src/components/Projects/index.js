@@ -21,11 +21,25 @@ import Pikmini from '../../assets/logo_images/pikmini.png'
 import Connect4 from '../../assets/logo_images/connect.png'
 import MtStHelen from '../../assets/logo_images/mtsthelen.jpg'
 import Dcash from '../../assets/logo_images/dcash.jpg'
+import Calorietrack from '../../assets/logo_images/calorietrack.jpg'
 function Projects(){
   return (
     <div className="wrapper">
 
     <CardGroup>
+    <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Calorietrack} />
+    <Card.Body>
+      <Card.Title>CalorieTrack</Card.Title>
+      <Card.Text>
+      In Progress(Estimated to be fully completed: February 2024)
+      </Card.Text>
+      <Card.Text>
+      
+      </Card.Text>
+      <Card.Link href="https://github.com/ronvic12/CalorieTrack"><button>View on Github</button></Card.Link>
+    </Card.Body>
+  </Card>
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>

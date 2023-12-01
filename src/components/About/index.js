@@ -13,7 +13,7 @@ const About = () => {
       <div className="text-zone">
         <h1>About Me</h1>
         <p>
-          I am currently working as a Software Engineer at Four Wheel Campers
+          I am a Former Software Engineer at Four Wheel Campers
           where I develop and maintain two Web Application Systems (ERP and Four Wheel Drive)
           to help and create an efficient system for every department at Four Wheel Campers.
           I am a first-generation graduate with a B.S. degree in Computer
