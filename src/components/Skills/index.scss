@@ -14,6 +14,22 @@ body {
     }
     
 }
+    .dart-icon::before {
+        content: "D";
+        font-family: Arial, sans-serif;
+        font-size: 1em;
+        font-weight: bold;
+        color: #00B4AB;
+    }
+
+    .dart-icon::after {
+        content: "→";
+        font-family: "Font Awesome 6 Brands", sans-serif;
+        font-size: 1.5em;
+        color: #4B4B4B;
+        margin-left: -10px;
+    }
+
 #title{
     text-align: center;
     color: #ffd700;

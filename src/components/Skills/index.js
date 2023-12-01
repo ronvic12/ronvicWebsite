@@ -4,8 +4,9 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-  faPython,faGithub,
+  faPython,faGithub,faNode,fa
 } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {NavLink} from 'react-router-dom';
 const Skills = () => {
   return (
@@ -24,23 +25,35 @@ const Skills = () => {
   <div className="skills-page">
     
 
-    <h1>Programming Languages</h1>
+    <h1>Programming Languages 
+      <FontAwesomeIcon icon={faPython} color="#DD0031" />
+      <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+      C++
+      <i class="dart-icon"></i>
+      </h1>
     <div className="programming">
     <ul id = "types">
-      <li>Python (Proficient)</li>
-      <li>Javascript (Experienced)</li>
+      <li>Python <FontAwesomeIcon icon={faPython} color="#DD0031" />(Proficient)</li>
+      <li>Javascript <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />(Experienced)</li>
       <li>C++ (Intermediate)</li>
-      <li>Dart(Beginner)</li>
+      <li>Dart <i class="dart-icon"></i>(Beginner)</li>
     </ul>
     </div>
-    <h1>Web Technologies</h1>
+    <h1>Web Technologies 
+    <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+    <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> 
+    <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> 
+    <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> 
+    <FontAwesomeIcon icon={faNode} color="#3c873a"/> 
+    </h1>
     <div className="programming">
     <ul id = "types">
-      <li>HTML5 (Experienced)</li>
-      <li>CSS3 (Experienced)</li>
-      <li>Javascript (Experienced)</li>
+      <li>HTML5 <FontAwesomeIcon icon={faHtml5} color="#F06529" /> (Experienced)</li>
+      <li>CSS3 <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> (Experienced)</li>
+      <li>Javascript <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> (Experienced)</li>
       <li>RESTful API (Experienced)</li>
-      <li>React (Experienced)</li>
+      <li>React <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> (Experienced)</li>
+      <li>Node.js <FontAwesomeIcon icon={faNode} color="#3c873a"/> (Experienced)</li>
     </ul>
     </div>
     <h1>FrameWorks</h1>
@@ -51,10 +64,10 @@ const Skills = () => {
       <li>Exposure to TensorFlow, Numpy, Pandas, SciKit-Learn, Seaborn, Matplotlib</li>
     </ul>
     </div>
-    <h1>Databases</h1>
+    <h1>Databases<i class="fa-solid fa-database" color="#3c873a"></i></h1>
     <div className="programming">
 
-    <h2>Database Management</h2>
+    <h1>Database Management</h1>
     <div className="programming">
     <ul id = "types">
       <li>MYSQL (Experienced)</li>
@@ -63,7 +76,7 @@ const Skills = () => {
     </div>
 
 
-    <h2>Database Design</h2>
+    <h1>Database Design</h1>
     <div className="programming">
     <ul id = "types">
       <li>Relational Database Design (Beginner)</li>
@@ -73,7 +86,7 @@ const Skills = () => {
 
     </div>
 
-    <h2>SQL</h2>
+    <h1>SQL</h1>
 
     <div className="programming">
     <ul id = "types">
