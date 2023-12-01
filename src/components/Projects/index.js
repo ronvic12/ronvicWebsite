@@ -22,11 +22,26 @@ import Connect4 from '../../assets/logo_images/connect.png'
 import MtStHelen from '../../assets/logo_images/mtsthelen.jpg'
 import Dcash from '../../assets/logo_images/dcash.jpg'
 import Calorietrack from '../../assets/logo_images/calorietrack.jpg'
+import RegressionModel from '../../assets/logo_images/regression model.webp'
 function Projects(){
   return (
     <div className="wrapper">
 
-    <CardGroup>
+    <CardGroup> 
+       <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={RegressionModel} />
+    <Card.Body>
+      <Card.Title>Regression Model</Card.Title>
+      <Card.Text>
+      Implemented visualizations and building Regression Models(Linear Regression, Polynomial Regression, Logistic Regression) with graphs using Numpy, Sci-Kit-Learn,Pandas,Seaborn and Matplotlib to analyze car fuel efficiencies. 
+
+      </Card.Text>
+      <Card.Text>
+      
+      </Card.Text>
+      <Card.Link href="https://github.com/ronvic12/Regression-Models-ML-Course-Project-"><button>View on Github</button></Card.Link>
+    </Card.Body>
+  </Card>
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={Calorietrack} />
     <Card.Body>
