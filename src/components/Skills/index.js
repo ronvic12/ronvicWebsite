@@ -9,12 +9,12 @@ import {
 import {NavLink} from 'react-router-dom';
 const Skills = () => {
   return (
-    <>
+    <body>   
     <h1 id ="title">MY SOFTWARE SKILLS</h1>
     <div className ="my_description">
       <p>
-        I am currently working as a Software Engineer at Four Wheel Campers where I develop and maintain two web application systems (ERP and Four Wheel Drive) to help and create an efficient system for every department of the company. Regards to my educational background, I graduated this past June 2022 with a B.S. Computer Science Degree from the University of California Davis.
-        Regards to my software skillset, I am currently proficient with Javascript language, since this is where I am using with my current employment, but still proficient in Python and C++. I am currently being more proficient developing web applications, but still have prior experience with Mobile development.
+        I am a former Software Engineer at Four Wheel Campers where I develop and maintain two web application systems (ERP and Four Wheel Drive) to help and create an efficient system for every department of the company. Regards to my educational background, I graduated this past June 2022 with a B.S. Computer Science Degree from the University of California Davis.
+        Regards to my software skillset, I am currently proficient with Javascript language, since this is where I am using with my current employment, but still proficient in Python and Intermediate with C++. I am currently being more proficient developing web applications and game applications.
          </p>
       <p> Checkout my projects in  <NavLink to ="/portfolio">Portfolio</NavLink> section. Also visit me in <a href = "https://www.linkedin.com/in/ronvic-cuevas/">LinkedIn</a> hoping we can connect and chat.
     </p>
@@ -27,37 +27,71 @@ const Skills = () => {
     <h1>Programming Languages</h1>
     <div className="programming">
     <ul id = "types">
-      <li>Python</li>
-      <li>C/C++</li>
-      <li>Dart</li>
-      <li>R</li>
+      <li>Python (Proficient)</li>
+      <li>Javascript (Experienced)</li>
+      <li>C++ (Intermediate)</li>
+      <li>Dart(Beginner)</li>
     </ul>
     </div>
-    <h1>Front-end Tools & FrameWorks (Mobile/Web Dev)</h1>
+    <h1>Web Technologies</h1>
     <div className="programming">
     <ul id = "types">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>TypeScript/JavaScript</li>
-      <li>ReactJS</li>
-      <li>Flutter</li>
-      <li>Bootstrap</li>
-      <li>Swift/SwiftUI</li>
-      <li>Figma</li>
+      <li>HTML5 (Experienced)</li>
+      <li>CSS3 (Experienced)</li>
+      <li>Javascript (Experienced)</li>
+      <li>RESTful API (Experienced)</li>
+      <li>React (Experienced)</li>
     </ul>
     </div>
-    <h1>Backend tools & Databases (Mobile/Web Dev)</h1>
+    <h1>FrameWorks</h1>
     <div className="programming">
     <ul id = "types">
-      <li>MySQL</li>
-      <li>Express.js</li>
-      <li>Next.js</li>
-      <li>Nest.js</li>
-      <li>Node.js</li>
-      <li>Firebase</li>
-      <li>RethinkDB</li>
+      <li>Express.js (Experienced)</li>
+      <li>Flutter(Beginner)</li>
+      <li>Exposure to TensorFlow, Numpy, Pandas, SciKit-Learn, Seaborn, Matplotlib</li>
     </ul>
     </div>
+    <h1>Databases</h1>
+    <div className="programming">
+
+    <h2>Database Management</h2>
+    <div className="programming">
+    <ul id = "types">
+      <li>MYSQL (Experienced)</li>
+      <li>Exposure to non-DBMS databases: Google Firebase and RethinkDB</li>
+    </ul>
+    </div>
+
+
+    <h2>Database Design</h2>
+    <div className="programming">
+    <ul id = "types">
+      <li>Relational Database Design (Beginner)</li>
+      <li>Entity-Relationship Diagrams (Beginner)</li>
+      <li>Database Normalization (Familiar)</li>
+    </ul>
+
+    </div>
+
+    <h2>SQL</h2>
+
+    <div className="programming">
+    <ul id = "types">
+      <li>Writing complex SQL queries for data retrieval, modification and analysis (Experienced)</li>
+    </ul>
+    </div>
+
+
+
+    </div>
+
+    <h1>Machine Learning Models</h1>
+    <div className="programming">
+    <ul id = "types">
+      <li>Regression Models (Beginner)</li>
+    </ul>
+    </div>
+
     <h1>Version Control & IDE Development</h1>
     <div className="programming">
     <ul id = "types">
@@ -65,14 +99,19 @@ const Skills = () => {
       <li>Linux(Ubuntu)</li>
       <li>UNIX</li>
       <li>Visual Studio Code</li>
-      <li>Android Studio</li>
       <li>Xcode</li>
-      <li>Rstudio</li>
+      <li>Unity Engine 3D</li>
+    </ul>
+    </div>
+    <h1>Agile/Scrum Methodologies</h1>
+    <div className="programming">
+    <ul id = "types">
+      <li>Agile/Scrum (Familiar)</li>
     </ul>
     </div>
     
     </div>
-    </>
+    </body>
   );
 };
 

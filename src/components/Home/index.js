@@ -1,6 +1,6 @@
 import Profile from '../../assets/images/ronvic.png';
 import './index.scss';
-import Resume from '../../assets/resume/Resume.pdf';
+import Resume from '../../assets/resume/Software Engineer resume.pdf';
 
 const Home = () =>{
 

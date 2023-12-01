@@ -1,6 +1,14 @@
+body {
+    overflow-x: auto; /* Enables horizontal scrollbar */
+    overflow-y: auto; /* Enables vertical scrollbar */
+}
 .skills-page{
     border-top: 2px solid #fff;
     h1{
+        text-align: center;
+        color: #ffd700;
+    }
+    h2{
         text-align: center;
         color: #ffd700;
     }
