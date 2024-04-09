@@ -10,6 +10,25 @@ const Experience = () => {
   <div className = "experience-container">
   <h1>Work Experience</h1>
   <VerticalTimeline>
+  <VerticalTimelineElement className = "vertical-timeline-element--work" date ="April 2023 - Present" contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }} iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }} icon = {<WorkIcon/>}>
+    <h3 className="vertical-timeline-element-title">Web Developer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Anderson Continuing Education</h4>
+    <p>
+
+    <li>
+    Developed and managed the Anderson Continuing Education website autonomously, offering post-secondary nursing certification courses.
+    </li> 
+    <li>
+    Leveraged C#, .NET, and HTML/CSS/JS technologies to ensure seamless functionality and user experience.
+    </li>   
+    <li>
+    Employed MySQL for efficient data management and hosted the website on GoDaddy servers for reliable accessibility. 
+    </li>
+    <li>
+    Maintained and updated the website independently to meet evolving user needs and industry standards. 
+    </li>
+    </p>
+    </VerticalTimelineElement>
   <VerticalTimelineElement className = "vertical-timeline-element--work" date ="August 2022 - July 2023" contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }} iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }} icon = {<WorkIcon/>}>
     <h3 className="vertical-timeline-element-title">Software Engineer</h3>
     <h4 className="vertical-timeline-element-subtitle">Four Wheel Campers</h4>
