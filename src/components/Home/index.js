@@ -10,7 +10,7 @@ const Home = () =>{
             <div className="text-zone">
             <h1>Hi, I'm Ronvic Cuevas</h1> 
  
-            <h2>Software Engineer @ Four Wheel Campers | Computer Science at UC Davis</h2>
+            <h2>Web Developer @ Anderson Continuing Education | UC Davis Alumni</h2>
             <a href={Resume} className ="resume-button">Download Resume</a>
             </div>
             <img id= "myprofile" src={Profile} alt ="profile"></img>
