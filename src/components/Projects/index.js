@@ -22,12 +22,28 @@ import Connect4 from '../../assets/logo_images/connect.png'
 import MtStHelen from '../../assets/logo_images/mtsthelen.jpg'
 import Dcash from '../../assets/logo_images/dcash.jpg'
 import Calorietrack from '../../assets/logo_images/calorietrack.jpg'
+import EarthDefender from '../../assets/logo_images/earthdefender.jpeg'
 import RegressionModel from '../../assets/logo_images/regression model.webp'
 function Projects(){
   return (
     <div className="wrapper">
 
     <CardGroup> 
+    <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={EarthDefender} />
+    <Card.Body>
+      <Card.Title>Earth Defender</Card.Title>
+      <Card.Text>
+      An adventurous and action 2D Shooter Game, where the earth is invaded by Aliens. As a ranger in space, your duty is to fight through the galaxy and defeat all aliens to make the Earth feel safe again
+      </Card.Text>
+      <Card.Text>
+      
+      </Card.Text>
+      <Card.Link href="https://coderedac30.itch.io/earth-defender"><button>Play on Itch.io</button></Card.Link>
+      <Card.Link href="https://github.com/ronvic12/2D-Shooter"><button>View on Github</button></Card.Link>
+    </Card.Body>
+  </Card>
+  
        <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={RegressionModel} />
     <Card.Body>
@@ -42,12 +58,13 @@ function Projects(){
       <Card.Link href="https://github.com/ronvic12/Regression-Models-ML-Course-Project-"><button>View on Github</button></Card.Link>
     </Card.Body>
   </Card>
+
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={Calorietrack} />
     <Card.Body>
       <Card.Title>CalorieTrack</Card.Title>
       <Card.Text>
-      In Progress(Estimated to be fully completed: February 2024)
+      In Progress
       </Card.Text>
       <Card.Text>
       
