@@ -13,16 +13,15 @@ const About = () => {
       <div className="text-zone">
         <h1>About Me</h1>
         <p>
-          I am a Former Software Engineer at Four Wheel Campers
-          where I develop and maintain two Web Application Systems (ERP and Four Wheel Drive)
-          to help and create an efficient system for every department at Four Wheel Campers.
+          I am a Web Developer at Anderson Continuing Education
+          where I develop new features and maintain CE certification course website.
           I am a first-generation graduate with a B.S. degree in Computer
           Science from the University of California, Davis, and I graduated with
           University itself this past June 2022. 
         </p>
         <p>
-          My biggest passion in the tech industry are Game Development, Software
-          Development and Web Development. I also love the idea of developing
+          My biggest passion in the tech industry are Web Development,
+          Software Development and Game Development. I also love the idea of developing
           mobile or web Applications with any content. I am also interested in
           the Software engineering careers because I really like problem solving
           and face new challenges. As of today, I constantly learning new

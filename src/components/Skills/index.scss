@@ -39,17 +39,23 @@ body {
     border: 1px solid #fff;
    display : table;
    margin: 0 auto;
+
 }
  ul#types{
-    text-align: center;
-    min-width: 696px;
-	list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if they don't fit */
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Removes the default list bullets */
+   
 }
 ul#types li{
-        display: inline;
-        padding: 5px;
-        color: #fff;
-        font-size: 18px;
+    flex: 1 1 20%; /* Flex-grow, flex-shrink, and flex-basis */
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center; /* Centers text inside each item */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
 .my_description{
@@ -57,7 +63,7 @@ ul#types li{
    margin-left:7%;
     p{
         color:#ffd700;
-        font-size: 12px;
+        font-size: 24px;
         text-align: center;
     }
     a{
