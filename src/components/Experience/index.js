@@ -16,17 +16,15 @@ const Experience = () => {
     <p>
 
     <li>
-    Developed and managed the Anderson Continuing Education website autonomously, offering post-secondary nursing certification courses.
+    Developed and managed the company’s nursing certification courses website using C#, ASP.NET, and MySQL Server on Linux (VPS).
     </li> 
     <li>
-    Leveraged C#, .NET, and HTML/CSS/JS technologies to ensure seamless functionality and user experience.
-    </li>   
+    Improved email deliverability for our GoDaddy-hosted website by implementing SPF, DKIM, and DMARC policies via Network Solutions, optimizing email content, and performing IP warming, significantly reducing spam rates on Gmail, Outlook, and Yahoo.   </li>   
     <li>
-    Employed MySQL for efficient data management and hosted the website on GoDaddy servers for reliable accessibility. 
+    Migrated 2GB of MySQL data to Amazon RDS MySQL and set up automated backups on AWS S3 to ensure data integrity and minimize downtime.
     </li>
     <li>
-    Maintained and updated the website independently to meet evolving user needs and industry standards. 
-    </li>
+    Consistently documented and communicated project tasks and bug issues in BitBucket, ensuring clarity and precision. Produced insightful and valuable comments while updating and streamlining code on Git/GitHub.    </li>
     </p>
     </VerticalTimelineElement>
   <VerticalTimelineElement className = "vertical-timeline-element--work" date ="August 2022 - July 2023" contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }} iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }} icon = {<WorkIcon/>}>
@@ -35,14 +33,17 @@ const Experience = () => {
     <p>
 
     <li>
-    Maintained and Developed full-stack web applications, coding at all levels from database management(MYSQL) to the backend(Node.js) to the front-end(HTML/CSS/Javascript) to create an efficient system for every department of the company: Sales,Services,Production,Accounting,Engineering,Adminstrator.
-    </li> 
+    Developed full-stack web apps using NodeJS for the backend and HTML, CSS, and JavaScript for the front end, integrating with RESTFUL API 
+for efficient systems across company departments.
+  </li> 
     <li>
-    Collaborated with other engineers (i.e. mechanical) to put their new implemented CNC Drawings or fixes into the web application system and communicate with every department to create a new idea on how to improve their web application system.
-    </li>   
+    Designed MySQL database schemas and optimized retrieval queries for large scalable business needs.
+   </li>   
     <li>
-    Created database schemas and wrote efficient retrieval queries in MYSQL for various large scalable business requirements.    
-    </li>
+    Collaborated in an Agile/Scrum environment, from planning features to solving bugs, and enhancing web app efficiency.
+   </li>
+   <li>
+   Implemented streamlined workflow with Git/Github, efficiently managing version control and team collaboration.  </li>
     </p>
     </VerticalTimelineElement>
 
@@ -58,11 +59,8 @@ const Experience = () => {
     <h4 className="vertical-timeline-element-subtitle">EyeVocab(Language Center, UC Davis)</h4>
     <p>
     <li>
-    Collaborated with two interns and the lead programmer to develop Eyevocab project which is a cloud-based, open-source, digital vocabulary program, designed for students to learn, practice, and test their knowledge of target language lexical items. The program features spaced repetition, custom learning schedules, simultaneous engagement of seeing, hearing, and typing L2 vocabulary in order to maximize long-term lexical retention.
-    </li>   
-    <li>
-    Implemented the web application using TypeScript/JavaScript, HTML,CSS and ReactJS Framework for the Front-End development. We use RethinkDB as our main source of Database, and using Express.js, Node.js, Next.js, and Docker for the backend development.    </li>  
-    
+    Implemented front-end web app using TypeScript and React Framework for Eyevocab Project, interfacing with Asynchronous ExpressNode API calls and RethinkDB. Results successfully created a User-Friendly environment for the pages of the Instructors and Students. 
+     </li>  
     </p>
     </VerticalTimelineElement>
 
@@ -73,14 +71,15 @@ const Experience = () => {
     <h4 className="vertical-timeline-element-subtitle">OpportunityKnocks</h4>
     <p>
     <li>
-    Designed and implemented the UI/UX of the app using Flutter and Dart languages to connect student-athletes to sponsors.
-    </li>   
+    Contributed to the end-to-end development of a cross-platform mobile application using Dart and Flutter, leveraging cloud-hosted NoSQL databases (Google Firebase) to ensure seamless data management. </li>   
     <li>
-    Implemented the back-end of the app using Firebase in order to make user profiles and Discount postings. 
+    Collaborated within a software development team of more than four members in an Agile/Scrum environment, actively participating in streamlining workflows 
+    using Git and GitHub to enhance the app's development lifecycle.
     </li>  
     <li>
-    Worked with a team of 4+ developers to make an app in order to provide compensation to student-athletes and benefit businesses.
+    Implemented the UI functionality and back-end of the app using Dart and Firebase for making user profiles and Discount postings. 
     </li>  
+ 
     
     </p>
     </VerticalTimelineElement>
@@ -90,11 +89,10 @@ Front-End Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">#include @ Davis</h4>
     <p>
     <li>
-    Design a front-end design for the clients using ReactJS or HTML, CSS, JS.
+    Designed and developed the client-facing user interface using React, HTML, CSS, and JavaScript to create engaging and responsive web applications.
     </li>   
     <li>
-    Work with team 10+ members, and get assigned partners and pages to implement the design from the given wireframe provided by
-the design team.
+    Strategically collaborated in a dynamic Agile team of 10+, specializing in seamless cooperation with the FrontEnd team. Played a pivotal role in translating visionary designs into reality, enhancing project outcomes through effective teamwork and execution.
     </li>  
     
     </p>
