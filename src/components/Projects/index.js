@@ -21,7 +21,7 @@ import Pikmini from '../../assets/logo_images/pikmini.png'
 import Connect4 from '../../assets/logo_images/connect.png'
 import MtStHelen from '../../assets/logo_images/mtsthelen.jpg'
 import Dcash from '../../assets/logo_images/dcash.jpg'
-import Calorietrack from '../../assets/logo_images/calorietrack.jpg'
+import TiktokPets from '../../assets/logo_images/Tiktok Pets.png'
 import EarthDefender from '../../assets/logo_images/earthdefender.jpeg'
 import RegressionModel from '../../assets/logo_images/regression model.webp'
 function Projects(){
@@ -44,6 +44,19 @@ function Projects(){
     </Card.Body>
   </Card>
   
+  <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={TiktokPets} />
+    <Card.Body>
+      <Card.Title>Tiktok Pets</Card.Title>
+      <Card.Text>
+      TikTok Pets is a full-stack web application inspired by TikTok, but with a focus solely on our beloved pets. Developed as a personal project to enhance my skills in web development, TikTok Pets allows users to share short video clips, images, and stories of their furry, feathery, or scaly companions. Through a combination of React for the frontend, HTML/CSS/JS for styling and interactivity, Node.js and Express for the backend, and SQLite3 for database management, TikTok Pets provides a seamless and engaging experience for pet lovers worldwide.
+      </Card.Text>
+      <Card.Text>
+      </Card.Text>
+      <Card.Link href="https://github.com/ronvic12/Tiktok-Pets"><button>View on Github</button></Card.Link>
+    </Card.Body>
+  </Card>
+
        <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={RegressionModel} />
     <Card.Body>
@@ -59,19 +72,7 @@ function Projects(){
     </Card.Body>
   </Card>
 
-    <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={Calorietrack} />
-    <Card.Body>
-      <Card.Title>CalorieTrack</Card.Title>
-      <Card.Text>
-      In Progress
-      </Card.Text>
-      <Card.Text>
-      
-      </Card.Text>
-      <Card.Link href="https://github.com/ronvic12/CalorieTrack"><button>View on Github</button></Card.Link>
-    </Card.Body>
-  </Card>
+ 
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
