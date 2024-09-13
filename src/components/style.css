@@ -1,0 +1,46 @@
+
+  
+  @keyframes zoomIn {
+    0% { 
+      transform: scale(1); 
+    }
+    50% { 
+      transform: scale(1.1); 
+    }
+    100% { 
+      transform: scale(1); 
+    }
+  }
+  
+  .animatedText {
+    position: absolute; /* Position h1 absolutely within the container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the natural offset */
+    font-size: 3rem; /* You can adjust the size */
+    color: #fff; /* Text color */
+    text-shadow: 
+      1px 1px 0 #000, 
+      2px 2px 0 #000, 
+      3px 3px 0 #000, 
+      4px 4px 0 #000, 
+      5px 5px 0 #000, 
+      6px 6px 0 #000, 
+      7px 7px 0 #000; /* Multiple layers of shadow for 3D effect */
+    font-weight: bold; /* Optional: make the text bold */
+    text-transform: uppercase;
+  }
+  
+
+ 
+
+  /* styles.css */
+.zoomImage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease; /* Smooth transition for zoom effect */
+  }
+  
+  .zoomImage:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+  }

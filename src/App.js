@@ -13,7 +13,6 @@ import Games from './components/Projects/Games';
 import WebApp from './components/Projects/WebApp';
 import OtherProj from './components/Projects/OtherProj';
 
-
 function App() {
   return (
     <>
