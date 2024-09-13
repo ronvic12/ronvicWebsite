@@ -1,5 +1,7 @@
 
 .home-page {
+  height: 100vh; 
+  padding-bottom: 500px;  /* Space at the bottom of the About section */
     .text-zone {
       position: absolute;
       left: 10%;
@@ -28,25 +30,25 @@
       animation: fadeIn 1s 1.8s backwards;
     }
   
-    .resume-button {
-      color: #ffd700;
-      font-size: 13px;
-      font-weight: 400;
-      letter-spacing: 4px;
-      font-family: sans-serif;
-      text-decoration: none;
-      padding: 10px 18px;
-      border: 1px solid #ffd700;
-      margin-top: 25px;
-      float: left;
-      animation: fadeInAnimation 1s 1.8s backwards;
-      white-space: nowrap;
+    // .resume-button {
+    //   color: #ffd700;
+    //   font-size: 13px;
+    //   font-weight: 400;
+    //   letter-spacing: 4px;
+    //   font-family: sans-serif;
+    //   text-decoration: none;
+    //   padding: 10px 18px;
+    //   border: 1px solid #ffd700;
+    //   margin-top: 25px;
+    //   float: left;
+    //   animation: fadeInAnimation 1s 1.8s backwards;
+    //   white-space: nowrap;
   
-      &:hover {
-        background: #ffd700;
-        color: #333;
-      }
-    }
+    //   &:hover {
+    //     background: #ffd700;
+    //     color: #333;
+    //   }
+    // }
   }
   
 #myprofile{
@@ -60,62 +62,4 @@
 
 
 
-// .home-page{
 
-//     h1{
-//         color: #fff;
-//         font-size: 33px; 
-//         margin-left: -150px;  
-//         font-family: 'Coolvetica';
-//         font-weight: 400;
-//         animation: fadeIn 1s linear both;
-//         animation-delay: 0.5s;
-//     }
-
-//     .text-zone{
-//         position: absolute;
-//         left: 10%;
-//         top: 50%;
-//         transform: translateY(-50%);
-//         width: 40%;
-//         max-height: 90%;
-//     }
-//     h2{
-//         color:grey;
-//         margin-top: 20px;
-//         animation: fadeIn 1s linear both;
-//         animation-delay: 1.4s;
-//         font-family: 'sans-serif';
-//         font-size:11px;
-//     }
-
-// .resume-button{
-//     color: #ffd700;
-//     font-size: 14px;
-//     font-weight: 400;
-//     letter-spacing: 4px;
-//     font-family: 'sans-serif';
-//     text-decoration: none;
-//     padding: 10px 18px;
-//     border: 1px solid #ffd700;
-//     margin-top:25px;
-//     float:left;
-//     animation: fadeIn 1s 1.8s backwards;
-//     white-space: nowrap;
-// }
-// }
-// #myprofile{
-//     width: 20%;
-//      opacity: 0;
-//      height: auto;
-//      animation: fadeIn 1s linear both;
-//      animation-delay: 0.5s;
-// }
-
-
-// .icons{
-//     display: flex;
-//     flex-direction: row;
-//     margin-top:50%;
-//     margin-left:50%;
-// }

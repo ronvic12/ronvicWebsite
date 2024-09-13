@@ -1,3 +1,30 @@
+/* App.scss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content {
+    padding: 100px 0;
+    color: white;
+  }
+  #home, #about, #skills,#projects,#workexperience {
+    min-height: 100vh;  /* Ensure sections are full screen */
+    padding-top: 70px;  /* Offset content to account for the fixed navbar height */
+  }
+
+
 $primary-color: #ffd700;
 
 @import 'animate.css';

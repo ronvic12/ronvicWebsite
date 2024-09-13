@@ -9,7 +9,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const About = () => {
   return (
-    <div className="container about-page">
+    <section className="about-page">
       <div className="text-zone">
         <h1>About Me</h1>
         <p>
@@ -54,7 +54,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
